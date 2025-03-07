@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>path_setter</name>
+  <version>0.0.0</version>
+  <description>The map_routing package</description>
+
+  <maintainer email="qb@todo.todo">qb</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>lanelet2_core</build_depend>
+  <build_depend>lanelet2_io</build_depend>
+  <build_depend>lanelet2_routing</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  
+  <build_export_depend>geometry_msgs</build_export_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <build_export_depend>lanelet2_core</build_export_depend>
+  <build_export_depend>lanelet2_io</build_export_depend>
+  <build_export_depend>lanelet2_routing</build_export_depend>
+  <build_export_depend>nav_msgs</build_export_depend>
+  
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>lanelet2_core</exec_depend>
+  <exec_depend>lanelet2_io</exec_depend>
+  <exec_depend>lanelet2_routing</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+
+</package>

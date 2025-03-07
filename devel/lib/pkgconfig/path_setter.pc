@@ -1,0 +1,8 @@
+prefix=/home/qb/catkin_ws/devel
+
+Name: path_setter
+Description: Description of path_setter
+Version: 0.0.0
+Cflags: -I/home/qb/catkin_ws/src/path_setter/include
+Libs: -L${prefix}/lib 
+Requires: roscpp lanelet2_core lanelet2_io lanelet2_routing nav_msgs
