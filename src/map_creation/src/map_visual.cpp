@@ -11,6 +11,7 @@ visualization_msgs::MarkerArray createMapMarkers(lanelet::LaneletMapPtr map_);
 void createMap(ros::NodeHandle nh_) {
     ros::Publisher map_pub;
     std::string map_path_;
+    //Change this for your own use
     nh_.param<std::string>("map_path", map_path_, "/home/qb/catkin_ws/src/map_creation/maps/robotaksi.osm");
 
     lanelet::LaneletMapPtr map_=lanelet::load("/home/qb/catkin_ws/src/map_creation/maps/saved_map.osm", lanelet::Origin({0,0}));

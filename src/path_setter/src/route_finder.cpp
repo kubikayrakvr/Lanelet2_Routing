@@ -258,7 +258,4 @@ lanelet::LineString3d createRightBound(lanelet::LineString3d leftBound){
     return rightBound;
 }
 
-//NOTE: The Fact That The Middle Docking Point Is Adjacent To Two Lanelets Is Really Problematic
-//THIS CODE IS STUPID I AINT GONNA LIE BUT IT WORKS EXCEPT ONE POINT WHICH IS 1/3 OF THE POINTS WHICH IS QUITE A LARGE PERCENTAGE
-//PLUS IT FIND THE CLOSEST IN TERMS OF COORDINATES NOT PATH WISE THATS ALSO STUPID
-//I PROBABLY WILL SCRAP THIS CODE ANYWAYS UGH
+//NOTE: If The Docking Point Is Adjacent To More Than One Lanelet The Path After Docking May Be Messed Up
