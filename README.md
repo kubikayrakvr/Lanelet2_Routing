@@ -8,5 +8,5 @@ Path Creation Features
     Docking into any docking areas encountered on the path.
     Creating a overtake point based on a published point.
 
-To use this code a lanelet map has to be placed and the map path has to be specified in the code to run properly.
+To use this code a lanelet map has to be placed and the map path has to be specified in the code cpp files to run properly.
 Also make sure your lanelet2 library is linked properly.

@@ -1,1 +1,2 @@
-yuh
+## Path_Setter
+This package includes code for the creation of the path through rviz. You can run the path_visual.launch file to see it in effect. Also a lanelet2 map path needs to be linked to the code files for this code to work properly.
